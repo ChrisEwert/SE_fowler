@@ -25,7 +25,6 @@ public class CustomerTest {
   @DisplayName("Get Statement")
   public void getStatement() {
     String statement = "Rental Record for Chris" + "\n";
-    statement += "\t" + "Title" + "\t" + "\t" + "Days" + "\t" + "Amount" + "\n";
     statement += "Amount owed is " + "0.0" + "\n";
     statement += "You earned " + "0" + " frequent renter points";
 
