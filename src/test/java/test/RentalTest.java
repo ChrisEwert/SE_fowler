@@ -36,9 +36,9 @@ public class RentalTest {
     assertEquals(14.0, rental.getCharge(), 0);
   }
 
-  // @Test
-  // @DisplayName("Get FrequentRenterPoints")
-  // public void getFrequentRenterPoints() {
-  //   assertEquals(1, rental.getFrequentRenterPoints());
-  // }
+  @Test
+  @DisplayName("Get FrequentRenterPoints")
+  public void getFrequentRenterPoints() {
+    assertEquals(1, rental.getFrequentRenterPoints());
+  }
 }
