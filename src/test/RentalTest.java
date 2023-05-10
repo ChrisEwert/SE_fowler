@@ -16,15 +16,15 @@ public class RentalTest {
   }
 
   @Test
-  @DisplayName("Get DaysRented")
-  public void getDaysRented() {
-    assertEquals(10, rental.getDaysRented());
-  }
-
-  @Test
   @DisplayName("Get Movies")
   public void getMovie() {
     assertEquals(movie, rental.getMovie());
+  }
+
+  @Test
+  @DisplayName("Get DaysRented")
+  public void getDaysRented() {
+    assertEquals(10, rental.getDaysRented());
   }
 
   @Test

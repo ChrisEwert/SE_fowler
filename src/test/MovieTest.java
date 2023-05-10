@@ -14,15 +14,15 @@ public class MovieTest {
   }
 
   @Test
-  @DisplayName("Get PriceCode")
-  public void getPriceCode() {
-    assertEquals(0, movie.getPriceCode());
-  }
-
-  @Test
   @DisplayName("Get Title")
   public void getTitle() {
     assertEquals("Movie Title", movie.getTitle());
+  }
+
+  @Test
+  @DisplayName("Get PriceCode")
+  public void getPriceCode() {
+    assertEquals(0, movie.getPriceCode());
   }
 
   @Test
