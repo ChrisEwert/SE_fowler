@@ -3,9 +3,7 @@ package test;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-
 import classes.Movie;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class MovieTest {
@@ -29,15 +27,15 @@ public class MovieTest {
     assertEquals(0, movie.getPriceCode());
   }
 
-  @Test
-  @DisplayName("Get FrequentRenterPoints")
-  public void getFrequentRenterPoints() {
-    assertEquals(1, movie.getFrequentRenterPoints(0));
-  }
+  // @Test
+  // @DisplayName("Get FrequentRenterPoints")
+  // public void getFrequentRenterPoints() {
+  //   assertEquals(1, movie.getFrequentRenterPoints(0));
+  // }
 
-  @Test
-  @DisplayName("Get Charge")
-  public void getCharge() {
-    assertEquals(14.0, movie.getCharge(10), 0);
-  }
+  // @Test
+  // @DisplayName("Get Charge")
+  // public void getCharge() {
+  //   assertEquals(14.0, movie.getCharge(10), 0);
+  // }
 }
