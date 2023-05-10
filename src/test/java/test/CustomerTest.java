@@ -1,7 +1,8 @@
+package test;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-
+import classes.Customer;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
@@ -28,6 +29,6 @@ public class CustomerTest {
     statement += "Amount owed is " + "0.0" + "\n";
     statement += "You earned " + "0" + " frequent renter points";
 
-    assertEquals(statement, customer.getStatement());
+    assertEquals(statement, customer.statement());
   }
 }

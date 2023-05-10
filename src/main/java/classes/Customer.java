@@ -1,8 +1,9 @@
+package classes;
 
 import java.lang.*;
 import java.util.*;
 
-class Customer {
+public class Customer {
     private String name;
     private Vector rentals = new Vector();
     public Customer (String newname){
@@ -47,7 +48,7 @@ class Customer {
             case Movie.REGULAR:
                 result += 2;
                 if (aRental.getDaysRented() > 2)
-                    result += (each.getDaysRented() - 2) * 1.5;
+                    result += (aRental.getDaysRented() - 2) * 1.5;
                 break;
             case Movie.NEW_RELEASE:
                 result += aRental.getDaysRented() * 3;
